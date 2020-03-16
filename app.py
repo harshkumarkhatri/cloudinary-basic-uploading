@@ -6,9 +6,9 @@ import cloudinary
 app = Flask(__name__)
 
 cloudinary.config(
-  cloud_name = "harshkumarkhatri",
-  api_key = "189777582685733",
-  api_secret = "_66utVOprVTnRO3-ORv4LJHXtkg"
+  cloud_name = "your_cloud_name",
+  api_key = "your_api_key",
+  api_secret = "your_secret_key"
 )
 
 @app.route('/', methods=['GET', 'POST'])
