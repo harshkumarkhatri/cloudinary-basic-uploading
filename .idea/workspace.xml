@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37831af2-82ba-482a-9f28-85fed558e5f4" name="Default Changelist" comment="" />
+    <list default="true" id="37831af2-82ba-482a-9f28-85fed558e5f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Y3nESzyt5ixyQsCvJCUZFCfMyB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,8 +33,10 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/gitRepos/gymaale_pycharm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gymaale_pycharm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="untitled" type="Python.FlaskServer">
@@ -55,6 +66,9 @@
       <option name="presentableId" value="Default" />
       <updated>1582180033785</updated>
       <workItem from="1582180045280" duration="3440000" />
+      <workItem from="1584628976627" duration="1216000" />
+      <workItem from="1584630333683" duration="1185000" />
+      <workItem from="1584806647089" duration="31000" />
     </task>
     <servers />
   </component>
@@ -62,9 +76,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="263" y="299" width="424" height="485" key="FileChooserDialogImpl" timestamp="1582180289501">
+    <state x="263" y="299" width="424" height="485" key="FileChooserDialogImpl" timestamp="1584629424871">
       <screen x="0" y="27" width="1920" height="1029" />
     </state>
-    <state x="263" y="299" width="424" height="485" key="FileChooserDialogImpl/0.27.1920.1029@0.27.1920.1029" timestamp="1582180289501" />
+    <state x="263" y="299" width="424" height="485" key="FileChooserDialogImpl/0.27.1920.1029@0.27.1920.1029" timestamp="1584629424871" />
+    <state x="449" y="174" width="1022" height="731" key="SettingsEditor" timestamp="1584630163846">
+      <screen x="0" y="27" width="1920" height="1029" />
+    </state>
+    <state x="449" y="174" width="1022" height="731" key="SettingsEditor/0.27.1920.1029@0.27.1920.1029" timestamp="1584630163846" />
+    <state x="620" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1584806647687">
+      <screen x="0" y="27" width="1920" height="1029" />
+    </state>
+    <state x="620" y="367" key="com.intellij.ide.util.TipDialog/0.27.1920.1029@0.27.1920.1029" timestamp="1584806647687" />
   </component>
 </project>

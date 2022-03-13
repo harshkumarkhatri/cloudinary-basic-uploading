@@ -8,9 +8,9 @@ from cloudinary.utils import cloudinary_url
 from flask import Flask, render_template, request,flash,redirect,url_for
 
 cloudinary.config(
-  cloud_name = "your_clod_name",
-  api_key = "your_api_key",
-  api_secret = "your_api_secret_key"
+  cloud_name = "harshkumarkhatri",
+  api_key = "189777582685733",
+  api_secret = "_66utVOprVTnRO3-ORv4LJHXtkg"
 )
 
 app = Flask(__name__)
@@ -33,7 +33,7 @@ def upload_file():
         if z in allowed_extensions:
             if file_to_upload and file_to_upload2:
                 print('success')
-                upload_result = cloudinary.uploader.upload(file_to_upload,folder=folder_name,width=200,height=100)
+                upload_result = cloudinary.uploader.upload(file_to_upload,categorization = "aws_rek_tagging", folder=folder_name,width=200,height=100)
                 upload_result2 = cloudinary.uploader.upload(file_to_upload2,folder="demo_images",width=200,height=100)
                 thumbnail_url1, options = cloudinary_url(upload_result['public_id'], format="jpg", crop="fill", width=100,
                                                          height=100)
